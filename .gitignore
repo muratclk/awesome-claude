@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+.claude/settings.local.json
+
+# Scratch / logs
+*.log
+node_modules/
+.tmp/
