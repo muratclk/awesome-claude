@@ -10,6 +10,7 @@ Claude is a family of AI models and products built by Anthropic, designed to be 
 
 - [Official](#official)
 - [Claude Code](#claude-code)
+- [Skills](#skills)
 - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 - [SDKs & Libraries](#sdks--libraries)
 - [AI Coding Tools](#ai-coding-tools)
@@ -69,13 +70,10 @@ Claude is a family of AI models and products built by Anthropic, designed to be 
 ### Awesome Lists & Curations
 
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Flagship curated list of Claude Code resources: skills, agents, statuslines, tooling, and plugins.
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Large curated list of Claude Skills, resources, and tools for customizing Claude Code workflows.
-- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - Community collection of verified Claude Skills for TDD, debugging, Git, and docs.
 - [subinium/awesome-claude-code](https://github.com/subinium/awesome-claude-code) - Curated list of tools, skills, plugins, and MCP servers for Claude Code with a high inclusion bar.
 
-### Subagents, Skills & Plugins
+### Subagents & Plugins
 
-- [anthropics/skills](https://github.com/anthropics/skills) - Official repository of example Agent Skills with `SKILL.md` folders for creative, dev, and enterprise tasks.
 - [wshobson/agents](https://github.com/wshobson/agents) - Marketplace of production-ready subagents, skills, and commands for Claude Code.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) - Collection of specialized Claude Code subagents across development categories.
 - [0xfurai/claude-code-subagents](https://github.com/0xfurai/claude-code-subagents) - Comprehensive collection of production-ready development subagents as markdown files.
@@ -93,6 +91,35 @@ Claude is a family of AI models and products built by Anthropic, designed to be 
 - [Claude Code in VS Code](https://code.claude.com/docs/en/vs-code) - Official VS Code extension with a native chat panel, checkpoints, @-mentions, and diff viewing.
 - [Claude Code for JetBrains](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) - Official JetBrains plugin for IntelliJ, PyCharm, WebStorm, and others.
 - [coder/claudecode.nvim](https://github.com/coder/claudecode.nvim) - Pure-Lua Neovim extension protocol-compatible with the official Claude Code IDE integrations.
+
+## Skills
+
+Agent Skills are folders with a `SKILL.md` file that package instructions, scripts, and resources Claude loads on demand - they work across Claude apps, Claude Code, the API, and the Agent SDK.
+
+### Official & Docs
+
+- [Introducing Agent Skills](https://claude.com/blog/skills) - Anthropic's launch announcement for Agent Skills.
+- [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering deep dive on how Agent Skills work and how to design them.
+- [Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official documentation on what Agent Skills are and the SKILL.md format.
+- [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) - Official guide to writing effective SKILL.md files that Claude can discover and use.
+- [Using Agent Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide) - Official guide to uploading and invoking Skills through the Claude API.
+- [Skills in Claude Code](https://code.claude.com/docs/en/skills) - Official Claude Code docs for creating, managing, and invoking Skills.
+- [Introduction to Agent Skills](https://anthropic.skilljar.com/introduction-to-agent-skills) - Free official Anthropic Academy course on building and sharing Skills.
+- [The Complete Guide to Building Skills for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) - Anthropic's downloadable handbook on designing and authoring Skills.
+- [Agent Skills open standard](https://agentskills.io) - The open specification for the SKILL.md format, originated by Anthropic.
+
+### Collections & Marketplaces
+
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official repository of open-source example Skills.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Popular curated list of Claude Skills, resources, and tools.
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - Community collection of verified Skills for Claude Code, claude.ai, and the API.
+- [Claude Code Marketplaces](https://claudemarketplaces.com/) - Searchable directory of Claude Code Skills, plugins, and MCP servers.
+
+### Tools for Building Skills
+
+- [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - Anthropic's meta-Skill that guides you through creating and refining new Skills.
+- [claudelint Skills validator](https://claudelint.com/validators/skills) - Linter that checks SKILL.md files for correctness, security, and quality.
+- [agent-ecosystem/skill-validator](https://github.com/agent-ecosystem/skill-validator) - CLI that validates and scores Agent Skill packages.
 
 ## Model Context Protocol (MCP)
 

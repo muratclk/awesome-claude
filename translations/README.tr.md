@@ -10,6 +10,7 @@ Claude, Anthropic tarafından geliştirilen; yardımsever, dürüst ve zararsız
 
 - [Resmi](#resmi)
 - [Claude Code](#claude-code)
+- [Skills](#skills)
 - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 - [SDK'lar ve Kütüphaneler](#sdklar-ve-kütüphaneler)
 - [Yapay Zeka Kodlama Araçları](#yapay-zeka-kodlama-araçları)
@@ -69,13 +70,10 @@ Claude, Anthropic tarafından geliştirilen; yardımsever, dürüst ve zararsız
 ### Awesome Listeler ve Derlemeler
 
 - [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Claude Code kaynaklarının amiral gemisi listesi: skill'ler, agent'lar, statusline'lar, araçlar ve eklentiler.
-- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Claude Code iş akışlarını özelleştirmek için büyük Claude Skills, kaynak ve araç derlemesi.
-- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - TDD, hata ayıklama, Git ve dokümanlar için doğrulanmış Claude Skills topluluk derlemesi.
 - [subinium/awesome-claude-code](https://github.com/subinium/awesome-claude-code) - Yüksek dahil edilme çıtası olan, Claude Code için araç, skill, eklenti ve MCP sunucusu listesi.
 
-### Subagent'lar, Skill'ler ve Eklentiler
+### Subagent'lar ve Eklentiler
 
-- [anthropics/skills](https://github.com/anthropics/skills) - Yaratıcı, geliştirme ve kurumsal görevler için `SKILL.md` klasörlü örnek Agent Skills resmi deposu.
 - [wshobson/agents](https://github.com/wshobson/agents) - Claude Code için üretime hazır subagent, skill ve komut pazaryeri.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) - Geliştirme kategorileri genelinde uzmanlaşmış Claude Code subagent derlemesi.
 - [0xfurai/claude-code-subagents](https://github.com/0xfurai/claude-code-subagents) - Markdown dosyaları hâlinde üretime hazır geliştirme subagent'larının kapsamlı derlemesi.
@@ -93,6 +91,35 @@ Claude, Anthropic tarafından geliştirilen; yardımsever, dürüst ve zararsız
 - [VS Code'da Claude Code](https://code.claude.com/docs/en/vs-code) - Yerleşik sohbet paneli, checkpoint'ler, @-etiketleme ve diff görüntüleme sunan resmi VS Code uzantısı.
 - [JetBrains için Claude Code](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) - IntelliJ, PyCharm, WebStorm ve diğerleri için resmi JetBrains eklentisi.
 - [coder/claudecode.nvim](https://github.com/coder/claudecode.nvim) - Resmi Claude Code IDE entegrasyonlarıyla protokol uyumlu, saf Lua Neovim uzantısı.
+
+## Skills
+
+Agent Skills, Claude'un talep üzerine yüklediği talimat, betik ve kaynakları paketleyen `SKILL.md` dosyalı klasörlerdir - Claude uygulamaları, Claude Code, API ve Agent SDK genelinde çalışır.
+
+### Resmi ve Dokümanlar
+
+- [Agent Skills Tanıtımı](https://claude.com/blog/skills) - Anthropic'in Agent Skills lansman duyurusu.
+- [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Agent Skills'in nasıl çalıştığına ve nasıl tasarlanacağına dair Anthropic mühendislik incelemesi.
+- [Agent Skills genel bakışı](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Agent Skills'in ne olduğuna ve SKILL.md biçimine dair resmi dokümantasyon.
+- [Skill yazma en iyi uygulamaları](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) - Claude'un keşfedip kullanabileceği etkili SKILL.md dosyaları yazmaya dair resmi rehber.
+- [Agent Skills'i API ile kullanma](https://platform.claude.com/docs/en/build-with-claude/skills-guide) - Skills'i Claude API üzerinden yükleme ve çağırmaya dair resmi rehber.
+- [Claude Code'da Skills](https://code.claude.com/docs/en/skills) - Skill oluşturma, yönetme ve çağırma için resmi Claude Code dokümanları.
+- [Agent Skills'e Giriş](https://anthropic.skilljar.com/introduction-to-agent-skills) - Skill oluşturma ve paylaşma üzerine ücretsiz resmi Anthropic Academy kursu.
+- [The Complete Guide to Building Skills for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) - Skill tasarlama ve yazma üzerine Anthropic'in indirilebilir el kitabı.
+- [Agent Skills açık standardı](https://agentskills.io) - Anthropic tarafından başlatılan SKILL.md biçiminin açık spesifikasyonu.
+
+### Derlemeler ve Pazaryerleri
+
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic'in açık kaynak örnek Skill'lerin resmi deposu.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Popüler, derlenmiş Claude Skills, kaynak ve araç listesi.
+- [karanb192/awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills) - Claude Code, claude.ai ve API için doğrulanmış Skill'lerin topluluk derlemesi.
+- [Claude Code Marketplaces](https://claudemarketplaces.com/) - Claude Code Skill'leri, eklentileri ve MCP sunucularının aranabilir dizini.
+
+### Skill Geliştirme Araçları
+
+- [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - Yeni Skill'ler oluşturma ve geliştirmede yol gösteren Anthropic meta-Skill'i.
+- [claudelint Skills doğrulayıcı](https://claudelint.com/validators/skills) - SKILL.md dosyalarını doğruluk, güvenlik ve kalite açısından denetleyen linter.
+- [agent-ecosystem/skill-validator](https://github.com/agent-ecosystem/skill-validator) - Agent Skill paketlerini doğrulayıp puanlayan CLI.
 
 ## Model Context Protocol (MCP)
 
