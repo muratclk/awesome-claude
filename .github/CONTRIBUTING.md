@@ -16,14 +16,17 @@ A resource is a good fit if it is:
 
 1. **Fork** this repository and create a branch.
 2. Add your link to the most fitting section of [`README.md`](../README.md), keeping entries **alphabetically ordered** within their subsection where practical.
-3. Use this exact format — one line, a real HTTPS link, an em dash, and a short factual description:
+3. Use this exact format — one line, a real HTTPS link, a space-hyphen-space separator, and a short factual description:
    ```
-   - [Name](https://example.com) — One concise line describing what it is and why it's useful.
+   - [Name](https://example.com) - One concise line describing what it is and why it's useful.
    ```
+   The separator must be ` - ` (space, hyphen, space) — **not** an en/em dash. The description must **start with a capital letter and end with a period**.
 4. Keep descriptions **neutral and factual** — no marketing language, no star counts (they go stale).
 5. Make sure the **link works** and points to the canonical source (prefer the project's homepage or its GitHub repo).
-6. If you add a whole new category, update the **Table of Contents** too.
-7. Open a pull request with a clear title. One logical change per PR is easiest to review.
+6. Do **not** add the same link twice — awesome lists forbid duplicate links.
+7. If you add a whole new category, update the **Contents** too.
+8. Before opening a PR, run **`npx awesome-lint`** in the repo root and make sure it passes with no errors.
+9. Open a pull request with a clear title. One logical change per PR is easiest to review.
 
 ## Translations
 
